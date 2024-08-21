@@ -1,0 +1,176 @@
+/* Normalize CSS - Versión Básica y Compatible */
+
+/* 1. Asegura que los elementos HTML5 se muestran correctamente en todos los navegadores */
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+/* 2. Oculta elementos que no son visibles */
+audio, canvas, progress, video {
+    display: inline-block;
+}
+
+/* 3. Evita que el contenido multimedia sea tratado como reemplazable */
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/* 4. Asegura que las imágenes respondan a los tamaños */
+img {
+    border-style: none;
+}
+
+/* 5. Añade el estilo consistente para formularios y botones */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+/* 6. Quita las decoraciones de enlaces y estilos de botones */
+button, input {
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+/* 7. Asegura que las tablas sean consistentes */
+table {
+    border-collapse: collapse;
+}
+
+/* 8. Asegura que los textos seleccionados sean consistentes */
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline dotted;
+}
+
+/* 9. Configura las listas sin estilo predeterminado */
+ol, ul {
+    list-style: none;
+}
+
+/* 10. Mejora la usabilidad en dispositivos móviles */
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+/* 11. Añade consistencia en los bordes */
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+/* 12. Añade soporte consistente para touch en dispositivos móviles */
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 13. Mejora el aspecto de los enlaces */
+a {
+    background-color: transparent;
+}
+
+/* 14. Añade consistencia en el comportamiento de los formularios */
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/* 15. Ajuste para que los inputs tengan bordes y relleno */
+input[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+/* 16. Hace que los elementos de selección se vean iguales */
+optgroup {
+    font-weight: bold;
+}
+
+/* 17. Consistencia para el desplazamiento */
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+/* 18. Asegura que los elementos iframe se comporten correctamente */
+iframe {
+    border: 0;
+}
+
+/* 19. Configura la visualización de progresos en formularios */
+progress {
+    vertical-align: baseline;
+}
+
+/* 20. Asegura que el borde y el tamaño sean uniformes */
+* {
+    box-sizing: border-box;
+}
+
+/* 21. Ajuste de estilos por defecto para la compatibilidad */
+body {
+    margin: 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 22. Asegura que los botones sean más usables */
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* 23. Evita que las imágenes se salgan de sus contenedores */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 24. Define el comportamiento de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 25. Añade un ajuste en la apariencia de los selects en dispositivos móviles */
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+}
+
+/* 26. Consistencia para el estilo de los campos de formularios */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* 27. Estilo de los enlaces para botones */
+a {
+    color: inherit;
+    text-decoration: none;
+}
